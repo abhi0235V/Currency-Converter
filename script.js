@@ -12,7 +12,8 @@ const currencyList = [
   { code: "CAD", flag: "🇨🇦", sign: "$", name: "Canadian Dollar" },
   { code: "AUD", flag: "🇦🇺", sign: "$", name: "Australian Dollar" },
   { code: "CHF", flag: "🇨🇭", sign: "CHF", name: "Swiss Franc" },
-  { code: "RUB", flag: "🇷🇺", sign: "₽", name: "Russian Ruble" }
+  { code: "RUB", flag: "🇷🇺", sign: "₽", name: "Russian Ruble" },
+  { code: "AED", flag: "🇦🇪", sign: "د.إ", name: "UAE Dirham" }
 ];
 
 currencyList.forEach(currency => {
