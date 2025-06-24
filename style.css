@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #001f3f;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+input,
+select,
+button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+}
+
+select {
+  text-align: center;
+}
+
+.dropdowns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+button {
+  background-color: #004080;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #002c5a;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 480px) {
+  .dropdowns {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  input, select, button {
+    font-size: 0.95rem;
+  }
+}
